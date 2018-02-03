@@ -1,0 +1,19 @@
+body{
+    background-color: lightgrey;
+}
+nav{
+    margin-bottom: 50px;
+}
+a{
+    font-family: 'Pacifico', cursive;
+}
+#date{
+    text-align: right;
+}
+p{
+    padding: 10px;
+    padding-bottom: 40px;
+}
+h4{
+    font-color: grey;
+}
