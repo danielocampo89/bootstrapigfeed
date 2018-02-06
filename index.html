@@ -37,7 +37,7 @@
       </div>
       <div class="modal-body">
         <br>
-        <a href="\grid.html" class="btn btn-light" role="button"><i class="fas fa-camera"></i></a><a href="\grid.html" class="btn btn-light" role="button"><i class="fas fa-map-marker"></i></a>
+        <div class="nav-pills" role="button"><i class="fas fa-camera"></i><i class="fas fa-map-marker"></i></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
@@ -51,9 +51,20 @@
 <br>
 <br>
 <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center position-top">
-                <a href="\grid.html" class="btn btn-light" role="button"><i class="fas fa-th"></i></a><a href="\grid.html" class="btn btn-light" role="button"><i class="fas fa-square"></i></a>
+    <ul>
+      <li class="nav-item">
+    <a class="nav-link" id="gridpanel" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-th"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="listpanel" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-square"></i></a>
+  </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="gridpanel" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+       <div class="tab-pane fade show active" id="listpanel" role="tabpanel" aria-labelledby="pills-home-tab"></div>       
+  </div>
 </nav>
-        
+         
 <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-6">
@@ -173,6 +184,49 @@
               </div>
             </div>
         </div>
+</div>
+<br>
+
+<div class="tab-pane fade show active" id="gridpanel" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="row">
+        <div class="col-4">
+            <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--Mz5k-HqN--/c_scale,fl_progressive,q_80,w_800/1505942613220833683.jpg" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="http://st.automobilemag.com/uploads/sites/11/2014/02/2001-subaru-impreza-wrx-sti-front-three-quarters-motion.jpg" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="https://hips.hearstapps.com/roa.h-cdn.co/assets/14/51/4000x2661/gallery_nrm_1419017150-001sti.jpg?resize=768:*" alt="Card image cap">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4">
+            <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--GKLB3FPs--/c_scale,f_auto,fl_progressive,q_80,w_800/18iwb1z2s53n1jpg.jpg" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="https://www.cstatic-images.com/stock/900x600/1402523425761.jpg" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="https://www.johnscottisubaru.com/wp-content/uploads/2017/05/wrx-sti-2018-1.jpg" alt="Card image cap">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4">
+            <img class="card-img-top" src="https://hips.hearstapps.com/roa.h-cdn.co/assets/14/51/4000x2661/gallery_nrm_1419017150-001sti.jpg?resize=768:*" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="http://hanabi.autoweek.com/sites/default/files/styles/gen-738-415/public/_b1u5429_0.jpg?itok=RgO86iJs" alt="Card image cap">
+        </div>
+        <div class="col-4">
+            <img class="card-img-top" src="https://i.ytimg.com/vi/pE6P9d_y6Sk/maxresdefault.jpg" alt="Card image cap">
+        </div>
+    </div>
+    <br>
+
+    </div>
+</div>
 </div>
               
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
